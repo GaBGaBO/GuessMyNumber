@@ -1,0 +1,108 @@
+*{
+  box-sizing:border-box;
+}
+
+.again{
+  width:120px;
+  height:40px;
+  background-color: #fff;
+  color:#000;
+  font-weight:bold;
+  border:none;
+  font-size:20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.between{
+  position: absolute;
+  right:20px;
+  top:1px;
+  font-size:20px;
+  font-weight:bold;
+  color:black;
+  /* font-weight:1000; */
+  font-weight:bold;
+}
+.ifYouCan{
+  text-align: center;
+  margin-top:100px;
+  color:white;
+  font-weight:bold;
+  font-size:50px;
+  text-indent:3px;
+}
+
+.guess{
+  position: absolute;
+  width:120px;
+  height:60px;
+  left:678px;
+  color:black;
+  font-weight:bold;
+  font-size:40px;
+  border:none;  
+}
+hr{
+  margin-top:35px;  
+}
+.number{
+  position: absolute;
+  left: 200px;
+  top:500px;
+  width:140px;
+  height:70px;
+  background-color: #000;
+  color:#fff;
+  font-weight:bold;
+  font-size:40px;
+  text-align: center;
+  border:3px white solid;
+}
+.check{
+  
+  position: absolute;
+  left:210px;
+  top:580px;
+  width:120px;
+  height:50px;
+  border:none;
+  background-color:#fff;
+  color:#000;
+  font-weight:bold;
+  font-size:22px;
+  letter-spacing:2px;
+  cursor:pointer;
+}
+.guessing{
+  color:white;
+  font-weight:bold;
+  position:absolute;
+  right:360px;
+  font-size:35px;
+  bottom:330px;
+  letter-spacing:2px;
+}
+.score{
+  color:white;
+  font-weight:bold;
+  position:absolute;
+  right:413px;
+  font-size:35px;
+  bottom:190px;
+}
+.score span{
+  color:black;
+  font-weight:bold;
+}
+.HighScore{
+  color:white;
+  font-weight:bold;
+  position:absolute;
+  right:358px;
+  font-size:35px;
+  bottom:100px;
+}
+.HighScore span{
+  color:black;
+  font-weight:bold;
+}
